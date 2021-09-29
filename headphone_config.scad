@@ -4,10 +4,10 @@
 
   Revision:
   2018-09-12: creation
-  2018-09-13: add headphone_band_space and headphone_cup_space; 
+  2018-09-13: add headphone_band_space and headphone_cup_space;
 
   dwu <dyanawu@gmail.com>
-  
+
 */
 
 use <dovetail.scad>
@@ -30,15 +30,15 @@ headphone_band_thick = 10;
    | |__
   /     \
  ( bo.se )
-  \_____/      
+  \_____/
      |---|
        ^--- use the width that usually faces you so it's tucked under your desk.
        Or just tuck your headphones with the big side facing in.
  */
 headphone_cup_space = 20;
 
-// how thick your desk is 
-desk_height = 25;
+// how thick your desk is - updated for everdesk+
+desk_height = 26;
 
 // extra space between headphone band and desk
 desk_clearance = 20;
